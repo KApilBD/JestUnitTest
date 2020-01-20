@@ -6,7 +6,7 @@ const getPeoplePromise = fetch => {
             return res.json();
         })
         .then(data => {
-            console.log(data);
+            // console.log(data);
             return {
                 count: data.count,
                 results: data.results
