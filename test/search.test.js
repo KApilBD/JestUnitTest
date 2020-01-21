@@ -27,4 +27,7 @@ describe('google search', () => {
     it('does not return more then 3 matchs', () => {
         expect(googlesearch('.com', dbMock).length).toEqual(3)
     })
+    it('does not return more then 3 matchs', () => {
+        expect(googlesearch('.com', [])).toEqual([])
+    })
 })

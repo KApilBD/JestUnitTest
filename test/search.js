@@ -15,6 +15,6 @@ const googlesearch = (searchitem, db) => {
     return match.length > 3 ? match.slice(0, 3) : match;
 }
 
-console.log(googlesearch('photo', googledb));
+// console.log(googlesearch('photo', googledb));
 
 module.exports = googlesearch;
